@@ -62,3 +62,4 @@ $ npm run test:cov
 
 When running the project locally, visit `http://localhost:3000/api` to access the Swagger UI.
  
+On API Testing Platform, you can use the any method to CRUD tests.
