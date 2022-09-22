@@ -32,7 +32,6 @@ export class PostsService {
   public create(post: PostModel): PostModel {
     this.logger.log(`Creating post with title: ${post.title}`);
 
-    // if the title is already in use by another post
     const titleExists: boolean = this.posts.some(
       (item) => item.title === post.title,
     );
