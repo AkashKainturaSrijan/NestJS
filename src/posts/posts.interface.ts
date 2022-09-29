@@ -6,6 +6,7 @@ export interface PostModel {
   title: string;
   body: string;
   category: string;
+  description: string;
 }
 
 export class PostModel {
@@ -19,4 +20,6 @@ export class PostModel {
   body: string;
   @ApiProperty({ type: String })
   category: string;
+  @ApiProperty({ type: String})
+  description: string;
 }
