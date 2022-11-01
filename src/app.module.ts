@@ -13,7 +13,9 @@ import { AuthModule } from './auth/auth.module';
     PostsModule,
     FilterModule,
     FilesModule,
-    MongooseModule.forRoot('mongodb://localhost/authentication'),
+    MongooseModule.forRoot(
+      'mongodb+srv://AkashKaintura:LPA3gHXaNXwFEugk@cluster0.v4umw92.mongodb.net/?retryWrites=true&w=majority',
+    ),
     UserModule,
     AuthModule,
   ],
